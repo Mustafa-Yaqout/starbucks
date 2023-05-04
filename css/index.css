@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 60px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.left div {
+    margin:0px 20px;
+    font-weight: 800;
+}
+
+.left div:hover{
+    cursor: pointer;
+    color: green;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.right div{
+    margin: 20px;
+    font-weight: 600;
+}
+
+.right div:hover{
+    cursor: pointer;
+}
+
+.location:hover{
+    color: green;
+}
+
+.sign {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.sign:hover{
+    background-color: rgb(237, 237, 237);
+    color: black;
+    cursor: pointer;
+}
+
+.join{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.join:hover{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    cursor: pointer;
+}
+#logo {
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    display: none;
+
+}
+
+#bar {
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    font-size: 30px;
+    color: black;
+    display: none;
+}
+
+#bar:hover{
+    cursor: pointer;
+    color: green;
+}
+
+
+.responsive {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.top {
+    margin-bottom: 15px;
+}
+
+.top div{
+    padding: 4px;
+    font-weight: 600;
+}
+
+.top div:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.bottom div {
+    margin: 0px 10px;
+}
+
+.bottom div:hover{
+    cursor: pointer;
+    color: green;
+} 
+
+
+
+.product {
+    display: flex;
+    background-color: #a0c292;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+
+
+.product-left,
+.product-right
+{
+    text-align: center;
+    width: 50%;
+}
+
+.texts{
+    height: 100%;
+    padding:0px 100px;
+    padding-top: 3.2rem!important;
+    padding-bottom: 3.2rem!important;
+    }
+
+.product-title{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+
+.product-text{
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 0px 40px;
+    
+}
+
+.product-img
+{
+    width: 100%;
+}
+
+.send-an-gift-button,
+.join-now-button,
+.order-now-button {
+    padding: 2px 26px ;
+    border-radius: 40px;
+    border: 1px solid;
+    margin: 25px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600px;
+    font-size: 1.2rem;
+}
+
+
+.send-an-gift-button:hover,
+.join-now-button:hover,
+.order-now-button:hover{
+    cursor: pointer;
+    background-color:rgba(30,57,50,.1);
+    border: 1px solid black;
+
+}
+
+.product-right .product-text{
+    font-size: 24px;
+}
+
+
+
+.product-two{
+    display: flex;
+    background-color: #d4e9e2;;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+.product-left .product-title{
+    font-size: 48px;
+}
+
+
+.product-three{
+    display: flex;
+    background-color: #ffc519;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+.product-four{
+    display: flex;
+    background-color: #fff4d4;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+
+.product-five{
+    display: flex;
+    background-color:#a0c292;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+.product-sex{
+    display: flex;
+    background-color: #f0f0ea;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+.end{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    padding: 50px 0px 50px 0px;
+}
+
+.end a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+        .right{
+            display: none;
+        }
+        .left{
+            display: none;
+        }
+        #logo {
+            display: block;
+    
+        }
+        #bar{
+            display: block;
+        }
+        .active{
+            display: block;
+        }
+        #line{
+            display: none;
+        }
+}
